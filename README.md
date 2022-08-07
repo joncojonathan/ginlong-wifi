@@ -27,7 +27,7 @@ Click the 'Test' button and a tick should appear.
 Click 'Save' and when prompted 'Restart'
 
 ## Using the script(s)
-There are two scripts here, 'read-ginlong.bash' and 'read-ginlong.py' the bash script uses bash
+There are two scripts here, `read-ginlong.bash` and `read-ginlong.py` the bash script uses bash
 commands and needs to be run on a Linux machine. The other is written in Python and should run on
 any Python enabled system, although this one is also for Linux based systems. You only need one of 
 them, they both do the same thing.
@@ -46,13 +46,13 @@ running firewall on your system.
 ## The output files
 Both programs produce the same output.
 
-The 'logfile' contains 5 values separated by spaces, as follows:-
+The `logfile` contains 5 values separated by spaces, as follows:-
 
 	Date  Time   Watts_now   Day_kWh   Total_kWh 
 
 Each new entry occupies its own line, new entries are appended to the end of the file as they arrive.
 
-The 'webfile' contains 15 values again space delimited:-
+The `webfile` contains 15 values again space delimited:-
 
 	Date Time Watts_now Day_kWh Total_kWh DC_volts_1 DC_amps_1 DC_volts_2 DC_amps_2 AC_volts
 	AC_amps AC_freq kwh_yesterday kwh_month kwh_last_month inverter_temp
