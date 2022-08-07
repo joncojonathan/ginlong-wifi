@@ -15,7 +15,7 @@ from the automatically uploaded data from your inverter. You can also make this 
 that other people also view it.
 
 But what if you want to compile your own statistics, or automate energy usage depending on available
-power yourself? The local web page relies very heavily on Java script making it difficult to automate
+power yourself? The local web page relies very heavily on JavaScript making it difficult to automate
 reading the inverter's stats. Another option is to get the inverter to send the data it sends to 
 Ginlong monitoring to a local computer on your own network.
 
