@@ -28,14 +28,14 @@ Click 'Save' and when prompted 'Restart'
 
 ## Using the script(s)
 There are two scripts here, 'read-ginlong.bash' and 'read-ginlong.py' the bash script uses bash
-commands and needs to be ran on a Linux machine. The other is written in Python and should run on
+commands and needs to be run on a Linux machine. The other is written in Python and should run on
 any Python enabled system, although this one is also for Linux based systems. You only need one of 
 them, they both do the same thing.
 
 Open the one you wish to use with a text editor and set the file locations for the log file and the 
 webfile to suit your system. The defaults should work for a standard Linux installation.
 
-The files have plenty of comments and help inside them so I won't repeat it here. Both versions are
+The files have plenty of comments and help inside them, so I won't repeat it here. Both versions are
 deliberately left simple without error reporting. All the variables have readable names to make them
 easy to follow/modify. 
 
