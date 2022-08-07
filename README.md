@@ -2,7 +2,7 @@
 Collect data from a second generation Ginlong / Solis inverter equipped with a Wi-Fi stick. 
 
 ## Introduction
-A Ginlong / Solis second generation inverter equipped with a Wi-Fi 'stick' sends it's data to the Ginlong
+A Ginlong / Solis second generation inverter equipped with a Wi-Fi 'stick' sends its data to the Ginlong
 Monitoring website (http://www.ginlongmonitoring.com/) once every six minutes, when the inverter is 
 live. It is also possible to log onto the Wi-Fi 'stick' locally with a browser to configure the inverter
 and read the six minute updated generation stats. 
@@ -40,7 +40,7 @@ deliberately left simple without error reporting. All the variables have readabl
 easy to follow/modify. 
 
 Once you have modified the file locations inside the file set it running. Wait for a few minutes and 
-the first entry should appear when the inverter sends it's data. You may have to disable/modify any
+the first entry should appear when the inverter sends its data. You may have to disable/modify any
 running firewall on your system.
 
 ## The output files
@@ -50,7 +50,7 @@ The 'logfile' contains 5 values separated by spaces, as follows:-
 
 	Date  Time   Watts_now   Day_kWh   Total_kWh 
 
-Each new entry occupies it's own line, new entries are appended to the end of the file as they arrive.
+Each new entry occupies its own line, new entries are appended to the end of the file as they arrive.
 
 The 'webfile' contains 15 values again space delimited:-
 
@@ -62,7 +62,7 @@ information on a webpage.
 
 ## Disclaimer
 This works fine on my Solis 3.6 2G inverter equipped with a Wi-Fi 'stick'. According to Ginlong, the 
-Wi-Fi stick is compatible with all it's current solar and wind generation 2G inverters. It would be
+Wi-Fi stick is compatible with all its current solar and wind generation 2G inverters. It would be
 logical therefore to assume that these scripts would be compatible with all the current second
 generation inverters. The simple fact is that I only have one inverter installed and these scripts
 work for me! Please feel free to try them on other Ginlong inverters and let me know how you get on,
